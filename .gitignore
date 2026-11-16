@@ -1,0 +1,13 @@
+tmp/
+__pycache__/
+*.obj
+*.lst
+*.m51
+*.lnp
+*.plg
+*.uvopt
+*.uvgui.*
+firmware/basic
+firmware/improved_board
+firmware/improved_p26
+firmware/main.src

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-16",
+  "port": "COM8",
+  "tool": "stcgal 1.10",
+  "chip": "STC89C52RC/LE52RC",
+  "bsl": "6.6C",
+  "reported_frequency_MHz": 11.03,
+  "cpu_6t_enabled": false,
+  "firmware": "实验三_超声波测距\\firmware\\improved_board.hex",
+  "sha256": "3be6dcd562700363b2a28486592357bcc83fd21b6da5711144e9725a19c8ea82",
+  "result": "Writing flash completed; Setting options done; Disconnected; process exit 0",
+  "hardware_observation": "等待用户反馈距离、温度、按键和蜂鸣器，工具成功写入不等于功能验收通过"
+}

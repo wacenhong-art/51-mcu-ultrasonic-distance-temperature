@@ -1,0 +1,45 @@
+{
+  "source": "用户文字提供的实测数据",
+  "teacher_requirement": "用户转述老师确认四组足够",
+  "measurements": [
+    {
+      "reference_cm": 5,
+      "display_cm": 5.4,
+      "temperature_C": 19.1,
+      "absolute_error_cm": 0.4,
+      "relative_error_percent": 8.0,
+      "distance_locked": true
+    },
+    {
+      "reference_cm": 10,
+      "display_cm": 10.4,
+      "temperature_C": 19.4,
+      "absolute_error_cm": 0.4,
+      "relative_error_percent": 4.0,
+      "distance_locked": true
+    },
+    {
+      "reference_cm": 20,
+      "display_cm": 20.2,
+      "temperature_C": 19.5,
+      "absolute_error_cm": 0.2,
+      "relative_error_percent": 1.0,
+      "distance_locked": true
+    },
+    {
+      "reference_cm": 40,
+      "display_cm": 40.4,
+      "temperature_C": 20.0,
+      "absolute_error_cm": 0.4,
+      "relative_error_percent": 1.0,
+      "distance_locked": true
+    }
+  ],
+  "photo": "实物运行照片.jpg",
+  "photo_display": {
+    "distance_cm": 21.4,
+    "temperature_C": 20.7,
+    "matched_to_table": false
+  },
+  "baseline_comparison": "未采集"
+}

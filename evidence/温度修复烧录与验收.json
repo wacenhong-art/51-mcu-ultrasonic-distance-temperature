@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16",
+  "port": "COM8",
+  "firmware": "improved_board.hex",
+  "sha256": "d19430424bc8a3fbc1a4a067b0f43cb2c6f2c5fcda96d72cf80d13b54bc5557b",
+  "flash_result": "stcgal写入完成，Setting options done，Disconnected，exit 0",
+  "chip": "STC89C52RC/LE52RC",
+  "cpu_6t_enabled": false,
+  "fix": "DS18B20关键采样窗口去掉32位乘除法延时；以NOP固定时序采样；复位presence采样也改用固定时序",
+  "static_check": "11条单周期指令，11.0592MHz/12下约11.94us；三版本编译链接0警告0错误",
+  "user_confirmed": [
+    "旧版本测距、蜂鸣工作正常",
+    "修正版温度已显示"
+  ],
+  "not_yet_measured": [
+    "具体温度值与参考温度误差",
+    "5组标尺测距误差",
+    "补偿前后误差改善比例",
+    "K1锁定功能实板验收"
+  ]
+}
